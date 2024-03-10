@@ -1,8 +1,5 @@
-//Escreva um programa que ordena um array de inteiros utilizando o selection sort. Seu programa deve imprimir o status do array a fim de iteração.
-//Seu programa irá ler apenas um linha de entrada, que consiste em uma lista de inteiros separados por espaço
-//Na saída, imprima o array de entrada a cada fim de iteração. Seu programa deve parar assim que imprimir a sequência ordenada.
-//DICA: Use Arrays.toString(array) para imprimir o array.
-
+//FEITO
+import Util.*;
 import java.util.Arrays;
 
 /**
@@ -20,15 +17,9 @@ public class SelectionPaP {
                     indiceMenor = j;
             }
 
-            swap(array, i, indiceMenor);                        //colocamos o menor no primeiro espaço do array
+            Util.swap(array, i, indiceMenor);                        //colocamos o menor no primeiro espaço do array
             System.out.println(Arrays.toString(array));
         }
-    }
-    
-    public static void swap(int[] array, int indice1, int indice2) {
-        int aux = array[indice1];
-        array[indice1] = array[indice2];
-        array[indice2] = aux;
     }
 
     public static void main(String[] args) {

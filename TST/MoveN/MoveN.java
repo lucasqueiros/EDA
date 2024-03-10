@@ -1,4 +1,6 @@
 package MoveN;
+
+import Util.*;
 import java.util.Arrays;
 
 
@@ -12,7 +14,7 @@ public class MoveN {
                 if (array[i] < array[i - 1]) {
                     int aux = i;
                     while(aux >= 0 && array[aux] < array[aux - 1]) {
-                        Util.Util.swap(array, aux, aux - 1);
+                        Util.swap(array, aux, aux - 1);
                         aux--;
                         System.out.println(Arrays.toString(array));
                     }

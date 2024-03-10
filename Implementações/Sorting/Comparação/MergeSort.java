@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class MergeSort {
  
     public static void mergeSort(int[] array, int leftIndex, int rightIndex) {
@@ -53,8 +51,8 @@ public class MergeSort {
         //não precisamos nos preocupar do contrario, pois a parte final já está na posição certa
     }
 
-    //implementação com listas (feita por Adalberto)
-    public static ArrayList merge(ArrayList<Integer> left, ArrayList<Integer> right) {
+    /**implementação com listas (feita por Adalberto)
+    public static ArrayList<Integer> merge(ArrayList<Integer> left, ArrayList<Integer> right) {
         ArrayList<Integer> result = new ArrayList<>();
 
         while (left.size() > 0 && right.size() > 0) {
@@ -68,6 +66,6 @@ public class MergeSort {
         if (left.size() > 0) result.addAll(left);
         if (right.size() > 0) result.addAll(right);
         return result;
-    }
+    }/* */
 
 }

@@ -1,5 +1,7 @@
-package TST.LomutoUltimo;
+//FEITO
+package LomutoUltimo;
 
+import Util.*;
 import java.util.Arrays;
 
 public class LomutoUltimo {
@@ -16,20 +18,14 @@ public class LomutoUltimo {
                 // numTrocas ++;
                 // swap(array, i, pivotIndex - numTrocas);
                 numTrocas--;
-                swap(array, i, numTrocas);
+                Util.swap(array, i, numTrocas);
                 System.out.println(Arrays.toString(array));
             }
         }
 
-        swap(array, pivotIndex, numTrocas);
+        Util.swap(array, pivotIndex, numTrocas);
 
         System.out.println(Arrays.toString(array));
-    }
-
-    public static void swap(int[] array, int indice1, int indice2) {
-        int aux = array[indice1];
-        array[indice1] = array[indice2];
-        array[indice2] = aux;
     }
 
     public static void main(String[] args) {

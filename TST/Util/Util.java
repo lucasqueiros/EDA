@@ -1,6 +1,5 @@
 package Util;
 
-
 public class Util {
     
     public static void swap(int[] array, int indice1, int indice2) {

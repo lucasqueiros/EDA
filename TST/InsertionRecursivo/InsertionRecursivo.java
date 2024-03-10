@@ -1,10 +1,4 @@
-// Escreva um programa que ordena um array de inteiros utilizando o insertion sort. No entanto, dessa vez, sua implementação deve ser recursiva.
-// Seu programa deve imprimir o status do array a inserção ordenada (exceto a primeira).
-// Seu programa irá ler apenas um linha de entrada, que consiste em uma lista de inteiros separados por espaço.
-// Na saída, imprima o array a cada inserção ordenada. Seu programa deve parar assim que imprimir a sequência ordenada.
-// Seu programa deve, obrigatoriamente, utilizar recursão.
-
-
+//FEITO
 // algoritmo retirado do video https://www.youtube.com/watch?v=uwV80JaZrPs
 import java.util.Arrays;
 

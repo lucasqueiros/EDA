@@ -1,8 +1,5 @@
-// Você deve implementar um programa que dada uma entrada com os nomes dos livros que estão naquela estante, retorna os estados parciais (estado atual do array após a ordenação de cada elemento) de ordenação seguindo o algoritmo do insertion sort.
-//Entrada: A primeira linha tem o nome de todos os n livros da estante separados por virgula. 0 < n < 20.
-//saida: Seu programa deve imprimir uma linha para cada estado parcial da aplicação do algoritmo sobre a estante, incluindo o estado inicial e final (estante devidamente organizada). A impressão de cada linha deve ser formatada separando os nomes dos livros por virgula e espaço ", ".
-//Restrições: Para comparação de Strings deve ser utilizado o método String#compareTo.
-
+//FEITO
+import Util.*;
 import java.util.Arrays;
 
 /**
